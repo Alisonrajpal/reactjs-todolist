@@ -4,9 +4,10 @@ function App() {
 
 
   return (
-    <>
-      <div>{4*4}</div>
-    </>
+    <main>
+      <TodoInput/>
+      <TodoList/>
+    </main>
   )
 }
 
